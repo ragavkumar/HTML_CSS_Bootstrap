@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment - HTML, CSS, Boostrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="Assignment11_Ragavendar_Kumar_style.css">
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light ">
+
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand d-none d-lg-inline-block litegreen" href="1_LandingPage.html"><h2 class="nounderline">Latitude</h2></a>
+
+            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+                <img src="//placehold.it/40?text=LOGO" alt="logo">
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="collapse navbar-collapse flex-grow-1 navbar-right" id="myNavbar">
+
+                <ul class="navbar-nav mr-auto ml-auto flex-nowrap">
+
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="2_VizPage.html">Max Temperature</a>
+                          <a class="dropdown-item" href="3_VizPage.html">Humidity</a>
+                          <a class="dropdown-item" href="4_VizPage.html">Cloudiness</a>
+                          <a class="dropdown-item" href="5_VizPage.html">Wind Speed</a>
+                        </div>
+                      </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="6_ComparisonPage.html">Comparison</a>
+                    </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="7_DataPage.html">Data</a>
+                  </li>
+
+                </ul>
+    </nav>
+
+    <div class="container">
+
+      <div class = "row">
+
+          <div class="col-md-12">
+            <h2 class="litegreenfont">Comparison: Latitude vs X</h2>
+            <hr>     
+            </div>
+          </div>
+
+      <div class="row">
+          <div class="col-md-12">
+            <p>Click any plot to get an in-depth analysis</p>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-6" align="center">
+            <h3 class="litegreenfont">vs. Max Temperature </h3>
+            <div class="thumbnail">
+              <img src="Resources/assets/images/Fig1.png" alt="City Latitude vs Max Temperature (01/05/17)" style="width:100%">                
+            </div>
+          </div>
+
+          <div class="col-md-6" align="center">
+              <h3 class="litegreenfont">vs. Humidity </h3>
+              <div class="thumbnail">
+                <img src="Resources/assets/images/Fig2.png" alt="City Latitude vs Humidity (01/05/17)" style="width:100%">                
+              </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" align="center">
+              <h3 class="litegreenfont">vs. Cloudiness </h3>
+              <div class="thumbnail">
+                <img src="Resources/assets/images/Fig3.png" alt="City Latitude vs Cloudiness (01/05/17)" style="width:100%">                
+              </div>
+            </div>
+  
+            <div class="col-md-6" align="center">
+                <h3 class="litegreenfont">vs. Wind Speed </h3>
+                <div class="thumbnail">
+                  <img src="Resources/assets/images/Fig4.png" alt="City Latitude vs Wind Speed (01/05/17)" style="width:100%">                
+                </div>
+              </div>
+  
+          </div>
+     
+      </div>
+
+</body>
+
+</html>

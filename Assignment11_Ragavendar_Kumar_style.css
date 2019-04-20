@@ -1,0 +1,31 @@
+.box {
+  min-height: 50px;
+  padding: 50px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+  align-items: center
+}
+
+.litegreen {
+  background: #5DBCD2;
+}
+
+.litegreenfont {
+  color: #5DBCD2;
+}
+
+.nounderline{
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.img-thumbnail{
+  width:125 px;
+  height:125px;
+}
+
+.img-fluid_x{
+  width:300px;
+  height:200px;
+}
